@@ -1,6 +1,6 @@
 {
   "name": "sequelize-lazy-migrations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sequelize migrations generator & runner",
   "main": "index.js",
   "private": false,
