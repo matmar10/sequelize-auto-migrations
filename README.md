@@ -1,12 +1,13 @@
-# sequelize-auto-migrations
-Migration generator &amp;&amp; runner for sequelize
+# sequelize-lazy-migrations
+
+Migration generator &amp; runner for sequelize
 
 This package provide two tools:
 * `makemigration` - tool for create new migrations
 * `runmigration` - tool for apply created by first tool migrations
 
 ## Install
-`npm install sequelize-auto-migrations`
+`npm install sequelize-lazy-migrations`
 
 ## Usage
 * Init sequelize, with sequelize-cli, using `sequelize init`
@@ -37,6 +38,8 @@ To create and then execute migration, use:
 For more information, use `makemigration --help`, `runmigration --help`
 
 ## TODO:
+
+* Unit tests
 * Migration action sorting procedure need some fixes. When many foreign keys in tables, there is a bug with action order. Now, please check it manually (`--preview` option)
 * Need to check (and maybe fix) field types: `BLOB`, `RANGE`, `ARRAY`, `GEOMETRY`, `GEOGRAPHY`
 * Downgrade is not supported, add it
