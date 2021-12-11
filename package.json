@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/matmar10/sequelize-lazy-migrations#readme",
   "dependencies": {
-    "async": "^2.5.1",
+    "async": "^3.2.2",
     "command-line-args": "^5.0.2",
     "deep-diff": "^0.3.8",
     "js-beautify": "^1.8.9",
