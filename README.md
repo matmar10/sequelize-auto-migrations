@@ -1,6 +1,6 @@
 # sequelize-lazy-migrations
 
-Migration generator &amp; runner for sequelize
+Migration generator & runner for sequelize
 
 This package provide two tools:
 * `makemigration` - tool for create new migrations
